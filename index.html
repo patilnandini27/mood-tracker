@@ -1,0 +1,26 @@
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>How are you feeling today?</h1>
+    <div id="mood-selector">
+      <button class="mood" data-mood="😊">😊</button>
+      <button class="mood" data-mood="😢">😢</button>
+      <button class="mood" data-mood="😠">😠</button>
+      <button class="mood" data-mood="😴">😴</button>
+    </div>
+    <textarea id="entry" placeholder="Write something..."></textarea>
+    <button id="save">Save Entry</button>
+    <h2>Previous Entries</h2>
+    <ul id="entries"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
